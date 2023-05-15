@@ -2,7 +2,7 @@
 #![deny(missing_debug_implementations)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 #![cfg_attr(test, deny(warnings))]
-#![doc(html_root_url = "https://docs.rs/reqwest/0.11.18")]
+#![doc(html_root_url = "https://docs.rs/reqwest/0.11.19")]
 
 //! # reqwest
 //!
@@ -147,6 +147,8 @@
 //! ```bash
 //! export https_proxy=socks5://127.0.0.1:1086
 //! ```
+//!
+//! You can aso configure a proxy to send requests through unix domain sockets (see [Proxy](Proxy) for details).
 //!
 //! ## TLS
 //!
